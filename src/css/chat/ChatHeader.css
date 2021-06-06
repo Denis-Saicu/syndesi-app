@@ -1,0 +1,61 @@
+.chatHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 1.5px;
+    border-bottom: 3px solid #26282c;
+}
+
+.chatHeader .chatHeader__center {
+    margin-left: 15%;
+}
+
+.chatHeader .chatHeader__center >h3 {
+    color: #eff2f5;
+}
+
+.chatHeader__hash{
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.chatHeader__left >h3 {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.chatHeader__right{
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    justify-content:right;
+    display: grid;
+}
+
+.chatHeader__right .logout {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.chatHeader__right .logout > .MuiSvgIcon-root{
+    color: #eff2f5;
+}
+
+.chatHeader__right .logout > .logout__btn {
+    background-color: #363a3f;
+    color: #eff2f5;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.chatHeader__right .logout > .logout__btn:hover {
+  background-color: #363a3f;
+  color:white;
+}
+
+
+

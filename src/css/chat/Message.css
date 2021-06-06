@@ -1,0 +1,42 @@
+.message-left{
+    display: flex;
+    align-items:  center;
+    padding: 20px;
+    color: white;
+}
+
+.message__info{
+    margin-left: 20px;
+}
+
+.message__timestamp{
+    color:gray;
+    margin-left: 20px;
+    font-size: x-small;
+}
+
+.message-right{
+    display: flex;
+    align-items:  center;
+    padding: 20px;
+    color: white;
+    margin-left:820px;
+}
+
+.message__info_right{
+    margin-right: 20px;
+}
+
+.message__timestamp_right{
+    color:gray;
+    margin-right: 20px;
+    font-size: x-small;
+}
+
+ .message__info_right > p {
+    /* display: flex; */
+    flex: 0.5;
+    align-items: center;
+    justify-content:right;
+    display: grid;
+}
