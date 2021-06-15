@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import loginImg from "../../assets/logo.png";
+import loginImg from "../../assets/logo_dchatapp.png";
 import '../../css/login/Register.css'
 import { Button } from '@material-ui/core';
 import axios from '../../axios'

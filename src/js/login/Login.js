@@ -1,6 +1,6 @@
 import { Button } from '@material-ui/core';
 import React, { useRef, useState } from 'react'
-import loginImg from "../../assets/logo.png";
+import loginImg from "../../assets/logo_dchatapp.png";
 import "../../css/login/Login.css";
 import { auth, provider } from "../../firebase";
 import { login } from "../../features/userSlice"

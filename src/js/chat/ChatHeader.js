@@ -37,7 +37,7 @@ function ChatHeader({ channelName }) {
             </div>
 
             <div className="chatHeader__center">
-                <h3> Syndesi MessagingApp </h3>
+                <h3> DChatApp </h3>
             </div>
 
             <div className="chatHeader__right">

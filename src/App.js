@@ -71,21 +71,19 @@ function App() {
                       <Route exact path="/reset-password" component={ChangePassword} />
                       <Redirect to="/reset-password" />
                     </>
-                  ) : ( activate ?
+                  ) : (activate ?
                     (
                       <>
-                      <Route exact path="/activate" component={ConfirmEmail} />
-                      <Redirect to="activate" />
-                    </>
+                        <Route exact path="/activate" component={ConfirmEmail} />
+                        <Redirect to="activate" />
+                      </>
                     ) : (
                       <>
-                      <Route exact path="/auth" component={Auth} />
-                      <Redirect to="auth" />
-                    </>
+                        <Route exact path="/auth" component={Auth} />
+                        <Redirect to="auth" />
+                      </>
                     )
-
-                  )
-
+                )
               )
             )
             }

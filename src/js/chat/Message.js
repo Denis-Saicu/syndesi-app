@@ -11,23 +11,26 @@ function Message({ timestamp, user, message }) {
 
         return (
             <div className="message-right" >
+                <div className="dummy-right"></div>
 
-                <div className="message__info_right">
-                     <h4>
-                        <span className="message__timestamp_right">
-                            {new Date(timestamp?.toDate()).toUTCString()}
-                        </span>
-                        {user.displayName}
-                    </h4>
-                    <p>{message}</p>
+                <div className="dummy-end">
+
+                    <div className="message__info_right">
+                        <h4>
+                            <span className="message__timestamp_right">
+                                {new Date(timestamp?.toDate()).toUTCString()}
+                            </span>
+                            {user.displayName}
+                        </h4>
+                        <p>{message}</p>
+                    </div>
+
+                    <Avatar src={user.photo} />
                 </div>
-
-                <Avatar src={user.photo} />
-
             </div>
         )
     } else {
-        return(
+        return (
             <div className="message-left" >
 
                 <Avatar src={user.photo} />

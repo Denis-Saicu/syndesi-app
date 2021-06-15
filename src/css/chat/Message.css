@@ -17,12 +17,15 @@
 
 .message-right{
     display: flex;
+    justify-content: space-between;
+}
+
+.dummy-end{
+    display: flex;
     align-items:  center;
     padding: 20px;
     color: white;
-    margin-left:820px;
 }
-
 .message__info_right{
     margin-right: 20px;
 }
@@ -34,7 +37,6 @@
 }
 
  .message__info_right > p {
-    /* display: flex; */
     flex: 0.5;
     align-items: center;
     justify-content:right;
